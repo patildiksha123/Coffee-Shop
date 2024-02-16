@@ -6,5 +6,5 @@ def home(request):
     coffee = Coffee.objects.all()
     return render(request, 'Home.html', {'coffee':coffee})
    
-    
+
 
